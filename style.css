@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+   background-color: white;
+}
+header{
+ background-image: linear-gradient(to top,white,rgb(147, 198, 239));
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(147, 198, 239);
+}
+h2{
+ color: rgb(0, 0, 0);
+}
+.cats {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+article img { 
+    height: 180px;
+}
+
+article {
+    font-size: 15px;
+    padding: 40px;
+    width: 400px;
+    margin: 47px;
+    text-align: center;    
+    border: 1px solid  rgb(147, 198, 239);
+    border-radius: 10mm;
+}
+
+.dogs {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+.rodents{
+    display: flex;
+    justify-content: space-around;
+}
+
